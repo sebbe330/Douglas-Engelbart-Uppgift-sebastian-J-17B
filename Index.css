@@ -1,0 +1,74 @@
+.Home {
+    position: absolute;
+    top: -56%;
+    left: 29%;
+    color: white;
+    font-size: 24px;
+}
+
+.square {
+    width: 250px;
+    height: 58px;
+    Background-color: #745d5d;
+    position: absolute;
+    top: 49%;
+}
+
+img{
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 5px solid white;
+	box-shadow: 0px 0px 10px gray;
+}
+
+.DouglasEngelbart {
+    max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:white;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+  opacity:0.9;
+  border-radius: 10px;
+  text-decoration:none;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+body{
+	background: url(bakgrund.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
